@@ -1,0 +1,133 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-color: grey;
+	font-family: 'Heebo', sans-serif;
+	text-align: center;
+}
+
+/** HEADER **/
+header {
+	padding: 50px 0;
+}
+
+header a img {
+	width: 30%;
+}
+
+/** NAVEGACIÓN **/
+nav {
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	column-gap: 30px;
+	padding: 20px 0;
+}
+
+nav a {
+	color: white;
+	font-family: 'Heebo', sans-serif;
+	font-size: 36px;
+}
+
+nav a:hover {
+	color: blanchedalmond;
+}
+
+/** FOOTER **/
+footer {
+	background-color: blanchedalmond;
+	margin-top: 30px;
+	padding: 20px 0;
+}
+
+footer p {	
+	color: black;
+
+	font-size: 14px;
+}
+
+/** MAIN **/
+h1 {
+	color: black;
+	font-size: 48px;
+	padding: 20px 0;
+}
+.contenedor {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.producto {
+	background-color: black;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.producto img{
+	width: 100%
+}
+
+.titulo {
+	color: white;
+	font-size: 46px;
+	margin: 10px 0;
+	font-weight: bold;
+}
+
+.precio {
+	color: Yellow;
+	font-size: 50px;
+	margin: 10px 0;
+	font-weight: bold;
+}
+
+@media (min-width: 768px) {
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-column-gap: 20px;
+	}
+}
+
+@media (min-width: 992px) {
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-column-gap: 20px;
+	}
+}
+
+.img.producto img{
+	width;100%;
+
+
+}
+.info_producto p{
+	color:white;
+	padding:20px;
+	font-size:18px;
+	   }
+	form{
+		display:grid;
+		grid-template-columns:repeat(2,1fr);
+
+	}
+.elemento{
+	border:10px;solid darkmagente;
+	background-color:trasparent;
+	color:white;
+	font-size:20px;
+	fon-family: heebo; sans-serif;
+	padding:10px;
+	appearance:none;
+	}
+}
+}
